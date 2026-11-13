@@ -1,0 +1,12 @@
+{
+  "targets": [
+    {
+      "name": "Privi Quantum MCP",
+      "url": "https://privi-quantum.onrender.com/mcp"
+    },
+    {
+      "name": "Privi Flow",
+      "url": "https://priviflow.us"
+    }
+  ]
+}
