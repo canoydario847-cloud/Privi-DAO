@@ -1,0 +1,26 @@
+name: Privi DAO AI Operator Monitor
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: read
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Generate governance evidence and proposals
+        run: python -m dao.operator --output reports/latest.json
+      - name: Preserve report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: privi-dao-report
+          path: reports/latest.json
+          retention-days: 30
