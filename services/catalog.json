@@ -1,0 +1,223 @@
+{
+  "schema_version": "1",
+  "as_of": "2026-11-13",
+  "scope": "Known Privi repositories and user-described projects; not proof of running service, ownership, or consent",
+  "services": [
+    {
+      "id": "privi-core",
+      "name": "Privi Core",
+      "type": "repository",
+      "url": "https://github.com/canoydario847-cloud/Privi",
+      "status": "private",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-dao",
+      "name": "Privi DAO",
+      "type": "repository",
+      "url": "https://github.com/canoydario847-cloud/Privi-DAO",
+      "status": "public",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-gen",
+      "name": "Privi Gen",
+      "type": "repository",
+      "url": "https://github.com/canoydario847-cloud/Privi-Gen",
+      "status": "public",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-chain",
+      "name": "Privi Chain",
+      "type": "repository",
+      "url": "https://github.com/canoydario847-cloud/Privi-Chain",
+      "status": "public",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-chainflow",
+      "name": "Privi Chainflow",
+      "type": "repository",
+      "url": "https://github.com/canoydario847-cloud/Privi-Chainflow",
+      "status": "private",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-network",
+      "name": "Privi Network",
+      "type": "repository",
+      "url": "https://github.com/canoydario847-cloud/Privi-Network",
+      "status": "public",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-dao1",
+      "name": "Privi DAO1",
+      "type": "repository",
+      "url": "https://github.com/canoydario847-cloud/Privi-DAO1",
+      "status": "public",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-boot-code",
+      "name": "Privi Boot Code",
+      "type": "repository",
+      "url": "https://github.com/canoydario847-cloud/Privi-Boot-code",
+      "status": "public",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-flow",
+      "name": "Privi Flow",
+      "type": "website",
+      "url": "https://priviflow.us",
+      "status": "endpoint_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-quantum-mcp",
+      "name": "Privi Quantum MCP",
+      "type": "api",
+      "url": "https://privi-quantum.onrender.com/mcp",
+      "status": "endpoint_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-mainnet",
+      "name": "Privi Mainnet",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-life",
+      "name": "Privi LIFE",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "hey-jose",
+      "name": "Hey Jose",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "mr-lee",
+      "name": "Mr Lee",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-hub",
+      "name": "Privi Hub",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-food",
+      "name": "Privi Food",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-car",
+      "name": "Privi Car",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-health",
+      "name": "Privi Health",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-space",
+      "name": "Privi Space",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-world-ar-vr",
+      "name": "Privi World AR VR",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-wall",
+      "name": "Privi Wall",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-agent-calls",
+      "name": "Privi Agent Calls",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-payments",
+      "name": "Privi Payments",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    },
+    {
+      "id": "privi-governance-portal",
+      "name": "Privi Governance Portal",
+      "type": "project",
+      "url": null,
+      "status": "deployment_unverified",
+      "governance": "catalog_only",
+      "operator": "privi-ai-dao"
+    }
+  ]
+}
